@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordion Click</title>
+
+    <link rel="stylesheet" href="./MainApp.css">
+    <!-- Cài đặt thư viện trực tuyến của Jquery: -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Câu lệnh Jquery thông thường được tạo bởi 3 phần:
+        1. selector: lựa chọn phần tử
+            $('Tên thẻ hoặc . tên class')
+        
+        2. Sự kiện tương tác: ví dụ Click
+            .click(function(){ 
+                code here
+            })
+        3. Xử lý hiệu ứng
+        Ví dụ:
+            3.1. SlideDown() => Trượt xuống
+            3.2. SlideUp() => Trượt lên
+            3.3. SlideToggle() => Trượt lên/Xuống.
+            3.4. AddClass() => Thêm class cho thẻ HTML => Thêm style CSS.
+            3.5. RemoveClass() => Xóa Class .....
+            3.6. ToggleClass() => Thêm/Xóa Class -->
+    <h3 class="app-title">Acordion Click by JavaScript-jQuery</h3>
+
+    <!-- brendan-eich -->
+    <section class="brendan-eich-title">
+            <h3 class="brendan-eich-title-h3">Brendan Eich </h3>
+
+            <button>
+                <i class="fa-solid fa-up-down"></i>
+            </button>
+    </section>
+
+    <section class="brendan-eich-content">
+        <p>
+            Brendan Eich (sinh ngày 4 tháng 7 năm 1961) là một nhà công nghệ người Mỹ và là cha đẻ của ngôn ngữ lập trình JavaScript. Ông ta cũng là người đồng sáng lập của dự án Mozilla,[2] Mozilla Foundation và Mozilla Corporation, và từng là giám đốc công nghệ của Mozilla Corporation và là giám đốc điều hành trong một thời gian ngắn. Ông ta là CEO của Brave Software.
+        </p>
+    </section>
+    
+    <!-- john-resign -->
+    <section class="john-resign-title">
+        <h3 class="john-resign-title-h3">John Resign</h3>
+        <button>
+            <i class="fa-solid fa-up-down"></i>
+        </button>
+    </section>
+
+    <section class="john-resign-content">
+        <p>
+            John Resig là một kỹ sư phần mềm và doanh nhân người Mỹ, được biết đến nhiều nhất với tư cách là người sáng tạo và nhà phát triển chính của thư viện jQuery JavaScript. Tính đến năm 2021, ông là kiến ​​trúc sư phần mềm trưởng tại Học viện Khan.
+        </p>
+    </section>
+
+    <!-- mark-zuckerberg -->
+    <section class="mark-zuckerberg-title">
+        <h3 class="mark-zuckerberg-title-h3">Mark Zuckerberg</h3>
+        <button>
+            <i class="fa-solid fa-up-down"></i>
+        </button>
+    </section>
+
+    <section class="mark-zuckerberg-content">
+        <p>
+            Mark Elliot Zuckerberg (sinh ngày 14 tháng 5 năm 1984) là một nhà lập trình máy tính người Mỹ kiêm doanh nhân mảng công nghệ Internet. Anh là nhà đồng sáng lập của Meta (ban đầu tên là Facebook), và hiện đang điều hành công ty này với chức danh chủ tịch kiêm giám đốc điều hành.
+            <br>
+            Zuckerberg cho ra đời Facebook trong phòng ký túc xá của mình tại Đại học Harvard vào ngày 4 tháng 2 năm 2004. Trong quá trình tạo lập, xây dựng và hoàn thiện mạng xã hội này, anh nhận trợ giúp bởi các bạn cùng phòng học và các sinh viên Harvard khác như Eduardo Saverin, Andrew McCollum, Dustin Moskovitz và Chris Hughes.[5] Sau khi thành công trong việc tạo lập và thiết kế, nhóm của anh sau giới thiệu Facebook đến với các trường đại học khác. Từ đó, Facebook đã phát triển nhanh chóng, cán mốc một tỷ người sử dụng vào năm 2011. Cũng vì sự trợ giúp của người khác, Zuckerberg đã vướng phải nhiều tranh chấp tố tụng về pháp lý khác nhau được đưa ra bởi những người khác trong nhóm, họ tuyên bố rằng một phần của công ty vốn dựa trên sự tham gia đóng góp của họ trong giai đoạn khởi đầu và phát triển của Facebook.
+        </p>
+    </section>
+    
+    <script src="./MainApp.js"></script>
+</body>
+</html>

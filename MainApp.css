@@ -1,0 +1,275 @@
+.app-title{
+    width: 100%;
+    height: 57px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+
+    position: relative;
+    top: 0px;
+}
+
+/* brendan-eich */
+.brendan-eich-title{
+    width: 383px;
+    height: 50px;
+
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: aqua;
+}
+
+.brendan-eich-title button{
+    width: 32px;
+    height: 31px;
+    cursor: pointer;
+
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+
+    color: black;
+    background-color: aquamarine;
+    transition: all 0.3s ease;
+
+    position: absolute;
+    top: 7px;
+    right: 5px;
+}
+.brendan-eich-title button:hover{
+    color: white;
+    background-color: black;
+}
+/* chú ý: nếu không set class cho thẻ h3 => hiệu ứng addClass/toggleClass trong jQuery không được thực thi ! */
+.brendan-eich-title-h3{
+    width: 100%;
+    height: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+
+    position: absolute;
+    top: -7px;
+}
+.brendan-eich-content{
+    width: 385px;
+    height: 514px;
+    background-color: aqua;
+    background-image: url(./Imagines/brendan-eich.jfif);
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+
+    display: none;
+
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    
+    position: relative;
+    top: 2px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.brendan-eich-content p{
+    width: 100%;
+    height: 122px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+
+    position: absolute;
+    bottom: 0px;
+}
+
+/* john-resign */
+.john-resign-title{
+    width: 383px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+
+    position: relative;
+    top: 3px;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: aqua;
+}
+.john-resign-title button{
+    width: 32px;
+    height: 31px;
+    cursor: pointer;
+
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+
+    color: black;
+    background-color: aquamarine;
+    transition: all 0.3s ease;
+
+    position: absolute;
+    top: 7px;
+    right: 5px;
+}
+.john-resign-title button:hover{
+    color: white;
+    background-color: black;
+}
+.john-resign-title-h3{
+    width: 100%;
+    height: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+
+    position: absolute;
+    top: -7px;
+}
+
+.john-resign-content{
+    width: 385px;
+    height: 488px;
+    background-color: aqua;
+    background-image: url(./Imagines/john-resign.jfif);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+
+    display: none;
+
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 4px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.john-resign-content p{
+    width: 100%;
+    height: 122px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+
+    position: absolute;
+    bottom: -41px;
+}
+
+/* mark-zuckerberg */
+.mark-zuckerberg-title{
+    width: 383px;
+    height: 50px;
+
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+
+    position: relative;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: aqua;
+}
+.mark-zuckerberg-title button{
+    width: 32px;
+    height: 31px;
+    cursor: pointer;
+
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+
+    color: black;
+    background-color: aquamarine;
+    transition: all 0.3s ease;
+
+    position: absolute;
+    top: 7px;
+    right: 5px;
+}
+.mark-zuckerberg-title button:hover{
+    color: white;
+    background-color: black;
+}
+.mark-zuckerberg-title-h3{
+    width: 100%;
+    height: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+
+    position: absolute;
+    top: -7px;
+}
+.mark-zuckerberg-content{
+    width: 385px;
+    height: 632px;
+
+    background-color: aqua;
+    background-image: url(./Imagines/mark-zuckerberg.jfif);
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+
+    display: none;
+
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+
+    position: relative;
+    top: 7px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.mark-zuckerberg-content p{
+    width: 100%;
+    height: 122px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+
+    position: absolute;
+    bottom: 240px;
+}
+
+/* click event jQuery effects: */
+.title-click{
+    background-color: #344242;
+}
+.h3-click{
+    color: whitesmoke;
+}
